@@ -1,0 +1,17 @@
+{
+    "_id": "ObjectId",
+    "name": "string",
+    "url": "string",
+    "followers_count": "integer",
+    "posts": [
+        {
+            "post_id": "ObjectId",
+            "date": "date",
+            "engagement": {
+                "likes": "integer",
+                "shares": "integer",
+                "comments": "integer"
+            }
+        }
+    ]
+}

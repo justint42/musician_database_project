@@ -1,0 +1,16 @@
+{
+    "_id": "ObjectId",
+    "title": "string",
+    "duration": "integer",
+    "album_id": "ObjectId",
+    "streams": {
+        "platform_id": "ObjectId",
+        "count": "integer"
+    },
+    "merchandise": [
+        {
+            "item_id": "ObjectId",
+            "sales_count": "integer"
+        }
+    ]
+}

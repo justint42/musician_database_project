@@ -1,0 +1,6 @@
+{
+    "_id": "ObjectId",
+    "name": "string",
+    "url": "string",
+    "total_streams": "integer"
+}

@@ -1,0 +1,17 @@
+{
+    "_id": "ObjectId",
+    "title": "string",
+    "release_date": "date",
+    "songs": [
+        {
+            "song_id": "ObjectId",
+            "track_number": "integer"
+        }
+    ],
+    "team_members": [
+        {
+            "member_id": "ObjectId",
+            "role": "string"
+        }
+    ]
+}
