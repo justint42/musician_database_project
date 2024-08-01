@@ -1,3 +1,30 @@
+SET FOREIGN_KEY_CHECKS = 0;
+
+-- Truncate all tables to remove existing data
+TRUNCATE TABLE Albums;
+TRUNCATE TABLE ContentDistribution;
+TRUNCATE TABLE CreativeEventManagement;
+TRUNCATE TABLE CreativePerformances;
+TRUNCATE TABLE CreativePlatforms;
+TRUNCATE TABLE Creatives;
+TRUNCATE TABLE Events;
+TRUNCATE TABLE EventTypes;
+TRUNCATE TABLE ListenerPreferences;
+TRUNCATE TABLE Listeners;
+TRUNCATE TABLE ListenerSocialMediaPlatforms;
+TRUNCATE TABLE ListenerStreamingPlatforms;
+TRUNCATE TABLE Performances;
+TRUNCATE TABLE RecordingProjects;
+TRUNCATE TABLE RecordingStudios;
+TRUNCATE TABLE SocialMediaPlatforms;
+TRUNCATE TABLE SongAlbums;
+TRUNCATE TABLE Songs;
+TRUNCATE TABLE SongWriters;
+TRUNCATE TABLE StreamingPlatforms;
+
+SET FOREIGN_KEY_CHECKS = 1;
+
+
 -- Listeners
 INSERT INTO Listeners (ListenerID, Name) VALUES
 (1, 'Alice Johnson'),
@@ -168,6 +195,7 @@ INSERT INTO SocialMediaPlatforms (PlatformID, Name, Type) VALUES
 (10, 'WhatsApp', 'Messaging');
 
 -- ListenerStreamingPlatforms
+-- ListenerStreamingPlatforms
 INSERT INTO ListenerStreamingPlatforms (ListenerID, PlatformID, UserIdentifier) VALUES
 (1, 1, 'alice_spotify'),
 (2, 2, 'bob_applemusic'),
@@ -305,10 +333,10 @@ INSERT INTO ListenerStreamingPlatforms (ListenerID, PlatformID, UserIdentifier) 
 (134, 9, 'erica_bandcamp'),
 (135, 10, 'fiona_napster'),
 (136, 1, 'george_spotify'),
-(137, 2, 'holly_applemusic'),
-(138, 3, 'irene_pandora'),
-(139, 4, 'james_amazon'),
-(140, 5, 'kevin_tidal');
+(137, 1, 'holly_spotify'),
+(138, 1, 'irene_spotify'),
+(139, 1, 'james_spotify'),
+(140, 1, 'kevin_spotify');
 
 -- ListenerSocialMediaPlatforms
 INSERT INTO ListenerSocialMediaPlatforms (ListenerID, PlatformID, UserIdentifier) VALUES
