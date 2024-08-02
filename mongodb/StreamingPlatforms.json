@@ -1,6 +1,26 @@
-{
-    "_id": "ObjectId",
-    "name": "string",
-    "url": "string",
-    "total_streams": "integer"
-}
+[
+    {
+        "_id": {"$oid": "62bf28051c18d12345678931"},
+        "name": "Spotify",
+        "url": "https://www.spotify.com",
+        "total_streams": 500000000
+    },
+    {
+        "_id": {"$oid": "62bf28051c18d12345678932"},
+        "name": "Apple Music",
+        "url": "https://www.applemusic.com",
+        "total_streams": 300000000
+    },
+    {
+        "_id": {"$oid": "62bf28051c18d12345678933"},
+        "name": "Amazon Music",
+        "url": "https://www.amazonmusic.com",
+        "total_streams": 200000000
+    },
+    {
+        "_id": {"$oid": "62bf28051c18d12345678934"},
+        "name": "YouTube Music",
+        "url": "https://www.youtube.com/music",
+        "total_streams": 450000000
+    }
+]

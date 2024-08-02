@@ -1,7 +1,30 @@
-{
-    "_id": "ObjectId",
-    "name": "string",
-    "type": "string",
-    "price": "decimal",
-    "stock_count": "integer"
-}
+[
+    {
+        "_id": {"$oid": "62bf28451c18d12345678941"},
+        "name": "Vintage Band T-Shirt",
+        "type": "Apparel",
+        "price": {"$numberDecimal": "25.00"},
+        "stock_count": 100
+    },
+    {
+        "_id": {"$oid": "62bf28451c18d12345678942"},
+        "name": "Limited Edition Vinyl Record",
+        "type": "Music",
+        "price": {"$numberDecimal": "40.00"},
+        "stock_count": 50
+    },
+    {
+        "_id": {"$oid": "62bf28451c18d12345678943"},
+        "name": "Band Logo Hat",
+        "type": "Accessory",
+        "price": {"$numberDecimal": "15.00"},
+        "stock_count": 75
+    },
+    {
+        "_id": {"$oid": "62bf28451c18d12345678944"},
+        "name": "Signed Poster",
+        "type": "Memorabilia",
+        "price": {"$numberDecimal": "20.00"},
+        "stock_count": 30
+    }
+]

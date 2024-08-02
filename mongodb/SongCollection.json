@@ -1,16 +1,50 @@
-{
-    "_id": "ObjectId",
-    "title": "string",
-    "duration": "integer",
-    "album_id": "ObjectId",
-    "streams": {
-        "platform_id": "ObjectId",
-        "count": "integer"
+[
+    {
+        "_id": {"$oid": "62bf27951c18d12345678921"},
+        "title": "Echoes of the Night",
+        "duration": 215,
+        "album_id": {"$oid": "62bf26541d41c88d12345678"},
+        "streams": {
+            "platform_id": {"$oid": "62bf27051c18d12345678001"},
+            "count": 500000
+        },
+        "merchandise": [
+            {
+                "item_id": {"$oid": "62bf27451c18d12345678901"},
+                "sales_count": 120
+            }
+        ]
     },
-    "merchandise": [
-        {
-            "item_id": "ObjectId",
-            "sales_count": "integer"
-        }
-    ]
-}
+    {
+        "_id": {"$oid": "62bf27951c18d12345678922"},
+        "title": "Whispers in the Wind",
+        "duration": 198,
+        "album_id": {"$oid": "62bf26541d41c88d87654321"},
+        "streams": {
+            "platform_id": {"$oid": "62bf27051c18d12345678002"},
+            "count": 750000
+        },
+        "merchandise": [
+            {
+                "item_id": {"$oid": "62bf27451c18d12345678902"},
+                "sales_count": 95
+            }
+        ]
+    },
+    {
+        "_id": {"$oid": "62bf27951c18d12345678923"},
+        "title": "Silent Symphony",
+        "duration": 342,
+        "album_id": {"$oid": "62bf26541d41c88d87654321"},
+        "streams": {
+            "platform_id": {"$oid": "62bf27051c18d12345678003"},
+            "count": 300000
+        },
+        "merchandise": [
+            {
+                "item_id": {"$oid": "62bf27451c18d12345678903"},
+                "sales_count": 150
+            }
+        ]
+    }
+]

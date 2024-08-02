@@ -1,17 +1,89 @@
-{
-    "_id": "ObjectId",
-    "title": "string",
-    "release_date": "date",
-    "songs": [
-        {
-            "song_id": "ObjectId",
-            "track_number": "integer"
-        }
-    ],
-    "team_members": [
-        {
-            "member_id": "ObjectId",
-            "role": "string"
-        }
-    ]
-}
+[
+    {
+        "_id": {"$oid": "62bf26541d41c88d12345678"},
+        "title": "New Beginnings",
+        "release_date": {"$date": "2021-01-20T00:00:00Z"},
+        "songs": [
+            {
+                "song_id": {"$oid": "62bf26541d41c88d23456789"},
+                "track_number": 1
+            },
+            {
+                "song_id": {"$oid": "62bf26541d41c88d34567890"},
+                "track_number": 2
+            }
+        ],
+        "team_members": [
+            {
+                "member_id": {"$oid": "62bf26541d41c88d45678901"},
+                "role": "Producer"
+            },
+            {
+                "member_id": {"$oid": "62bf26541d41c88d56789012"},
+                "role": "Sound Engineer"
+            }
+        ]
+    },
+    {
+        "_id": {"$oid": "62bf26541d41c88d87654321"},
+        "title": "Echoes of Silence",
+        "release_date": {"$date": "2022-07-15T00:00:00Z"},
+        "songs": [
+            {
+                "song_id": {"$oid": "62bf26541d41c88d98765432"},
+                "track_number": 1
+            },
+            {
+                "song_id": {"$oid": "62bf26541d41c88d09876543"},
+                "track_number": 2
+            },
+            {
+                "song_id": {"$oid": "62bf26541d41c88d10987654"},
+                "track_number": 3
+            }
+        ],
+        "team_members": [
+            {
+                "member_id": {"$oid": "62bf26541d41c88d21098765"},
+                "role": "Vocalist"
+            },
+            {
+                "member_id": {"$oid": "62bf26541d41c88d32109876"},
+                "role": "Drummer"
+            }
+        ]
+    },
+    {
+        "_id": {"$oid": "62bf26541d41c88d43210987"},
+        "title": "Rhythms of Nature",
+        "release_date": {"$date": "2023-05-10T00:00:00Z"},
+        "songs": [
+            {
+                "song_id": {"$oid": "62bf26541d41c88d54321098"},
+                "track_number": 1
+            },
+            {
+                "song_id": {"$oid": "62bf26541d41c88d65432109"},
+                "track_number": 2
+            },
+            {
+                "song_id": {"$oid": "62bf26541d41c88d76543210"},
+                "track_number": 3
+            },
+            {
+                "song_id": {"$oid": "62bf26541d41c88d87654321"},
+                "track_number": 4
+            }
+        ],
+        "team_members": [
+            {
+                "member_id": {"$oid": "62bf26541d41c88d98765432"},
+                "role": "Composer"
+            },
+            {
+                "member_id": {"$oid": "62bf26541d41c88d09876543"},
+                "role": "Pianist"
+            }
+        ]
+    }
+]
