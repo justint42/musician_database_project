@@ -2,6 +2,7 @@
 
 import mysql.connector
 from mysql.connector import Error
+import config
 import matplotlib.pyplot as plt
 import seaborn as sns
 import pandas as pd
@@ -10,11 +11,12 @@ def create_connection():
     """Create a database connection."""
     try:
         connection = mysql.connector.connect(
-            host='localhost',
-            user='root',
-            password='ykwim2020',  # Update with your MySQL root password
-            database='musician'
+            host=config.host,
+            user=config.user,
+            password=config.password,
+            database=config.database
         )
+
         return connection
     except Error as e:
         print(f"Error connecting to MySQL: {e}")
