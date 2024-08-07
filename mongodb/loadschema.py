@@ -2,21 +2,15 @@ import json
 from pymongo import MongoClient
 from bson import json_util
 
-import json
-from pymongo import MongoClient
-from bson import json_util  # Import json_util to handle BSON types
-
 def load_data(filepath, collection_name):
     client = MongoClient('mongodb://localhost:27017/')
     db = client['your_database_name']
     collection = db[collection_name]
 
-    # Clear the collection
     collection.delete_many({})
 
-    # Load JSON data
     with open(filepath, 'r') as file:
-        data = json.load(file, object_hook=json_util.object_hook)  # Use json_util to decode JSON
+        data = json.load(file, object_hook=json_util.object_hook)
 
         if isinstance(data, list):
             collection.insert_many(data)
