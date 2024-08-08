@@ -1,0 +1,114 @@
+[
+    {
+        "productID": "MM001",
+        "name": "Logo T-shirt",
+        "type": "Apparel",
+        "price": 25.00,
+        "stock_count": 100,
+        "units_sold": 30
+    },
+    {
+        "productID": "MM002",
+        "name": "Hoodie with Album Art",
+        "type": "Apparel",
+        "price": 45.00,
+        "stock_count": 50,
+        "units_sold": 20
+    },
+    {
+        "productID": "MM003",
+        "name": "Vinyl Record 'Dreamscape'",
+        "type": "Music",
+        "price": 30.00,
+        "stock_count": 150,
+        "units_sold": 45
+    },
+    {
+        "productID": "MM004",
+        "name": "Digital Download – Complete Album",
+        "type": "Music",
+        "price": 10.00,
+        "stock_count": 999999,
+        "units_sold": 150
+    },
+    {
+        "productID": "MM005",
+        "name": "Poster Signed by Artist X",
+        "type": "Merchandise",
+        "price": 20.00,
+        "stock_count": 75,
+        "units_sold": 25
+    },
+    {
+        "productID": "MM006",
+        "name": "Limited Edition Cap",
+        "type": "Apparel",
+        "price": 35.00,
+        "stock_count": 50,
+        "units_sold": 15
+    },
+    {
+        "productID": "MM007",
+        "name": "Sticker Pack",
+        "type": "Merchandise",
+        "price": 5.00,
+        "stock_count": 200,
+        "units_sold": 60
+    },
+    {
+        "productID": "MM008",
+        "name": "Enamel Pin Set",
+        "type": "Merchandise",
+        "price": 15.00,
+        "stock_count": 100,
+        "units_sold": 40
+    },
+    {
+        "productID": "MM009",
+        "name": "Canvas Bag",
+        "type": "Apparel",
+        "price": 22.00,
+        "stock_count": 80,
+        "units_sold": 30
+    },
+    {
+        "productID": "MM010",
+        "name": "Acoustic Sessions EP (CD)",
+        "type": "Music",
+        "price": 15.00,
+        "stock_count": 120,
+        "units_sold": 35
+    },
+    {
+        "productID": "MM011",
+        "name": "Guitar Picks (Pack of 5)",
+        "type": "Merchandise",
+        "price": 10.00,
+        "stock_count": 300,
+        "units_sold": 85
+    },
+    {
+        "productID": "MM012",
+        "name": "Photo Book",
+        "type": "Merchandise",
+        "price": 40.00,
+        "stock_count": 40,
+        "units_sold": 10
+    },
+    {
+        "productID": "MM013",
+        "name": "Lyrics Book",
+        "type": "Merchandise",
+        "price": 25.00,
+        "stock_count": 60,
+        "units_sold": 20
+    },
+    {
+        "productID": "MM014",
+        "name": "Concert Tickets",
+        "type": "Tickets",
+        "price": 50.00,
+        "stock_count": 200,
+        "units_sold": 50
+    }
+]

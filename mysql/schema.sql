@@ -22,6 +22,7 @@ DROP TABLE IF EXISTS CreativeEventManagement;
 DROP TABLE IF EXISTS ListenerPreferences;
 DROP TABLE IF EXISTS Collaborations;
 DROP TABLE IF EXISTS SongAlbums;
+DROP TABLE IF EXISTS Products;
 
 -- Create tables in the correct order
 
@@ -210,4 +211,14 @@ CREATE TABLE SongAlbums (
     associatedContentType VARCHAR(100) NOT NULL,
     trackNumber INTEGER,
     PRIMARY KEY (contentID, contentType, associatedContentID, associatedContentType)
+);
+
+
+CREATE TABLE Products (
+    productID VARCHAR(255) NOT NULL PRIMARY KEY,
+    name VARCHAR(255) NOT NULL,
+    type VARCHAR(255) NOT NULL,
+    price DECIMAL(10, 2) NOT NULL,
+    stock_count INT NOT NULL,
+    units_sold INT DEFAULT 0
 );

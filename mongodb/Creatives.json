@@ -1,0 +1,102 @@
+[
+    {
+        "creativeID": 1,
+        "creativeName": "Artist X",
+        "creativeType": "Artist"
+    },
+    {
+        "creativeID": 2,
+        "creativeName": "Samantha Lee",
+        "creativeType": "Producer"
+    },
+    {
+        "creativeID": 3,
+        "creativeName": "Marcus Wright",
+        "creativeType": "Songwriter"
+    },
+    {
+        "creativeID": 4,
+        "creativeName": "Elena Rodriguez",
+        "creativeType": "Designer"
+    },
+    {
+        "creativeID": 5,
+        "creativeName": "Chris Taylor",
+        "creativeType": "Photographer"
+    },
+    {
+        "creativeID": 6,
+        "creativeName": "Olivia Chen",
+        "creativeType": "Choreographer"
+    },
+    {
+        "creativeID": 7,
+        "creativeName": "Derek Foster",
+        "creativeType": "Sound Engineer"
+    },
+    {
+        "creativeID": 8,
+        "creativeName": "Zoe Patel",
+        "creativeType": "Music Video Director"
+    },
+    {
+        "creativeID": 9,
+        "creativeName": "Ryan O'Brien",
+        "creativeType": "Tour Manager"
+    },
+    {
+        "creativeID": 10,
+        "creativeName": "Naomi Watanabe",
+        "creativeType": "Stylist"
+    },
+    {
+        "creativeID": 11,
+        "creativeName": "Liam Henderson",
+        "creativeType": "Session Musician"
+    },
+    {
+        "creativeID": 12,
+        "creativeName": "Aria Kim",
+        "creativeType": "A&R Representative"
+    },
+    {
+        "creativeID": 13,
+        "creativeName": "Carlos Mendoza",
+        "creativeType": "Graphic Designer"
+    },
+    {
+        "creativeID": 14,
+        "creativeName": "Jasmine Wong",
+        "creativeType": "Social Media Manager"
+    },
+    {
+        "creativeID": 15,
+        "creativeName": "Tyler Scott",
+        "creativeType": "Music Journalist"
+    },
+    {
+        "creativeID": 16,
+        "creativeName": "Sophie Dubois",
+        "creativeType": "Publicist"
+    },
+    {
+        "creativeID": 17,
+        "creativeName": "Miguel Fernandez",
+        "creativeType": "Booking Agent"
+    },
+    {
+        "creativeID": 18,
+        "creativeName": "Emma Larsson",
+        "creativeType": "Music Therapist"
+    },
+    {
+        "creativeID": 19,
+        "creativeName": "David Chang",
+        "creativeType": "Music Tech Developer"
+    },
+    {
+        "creativeID": 20,
+        "creativeName": "Isabella Rossi",
+        "creativeType": "Music Educator"
+    }
+]

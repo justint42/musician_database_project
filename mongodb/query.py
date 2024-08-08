@@ -2,40 +2,53 @@ from pymongo import MongoClient
 
 # Establish connection to MongoDB
 client = MongoClient("mongodb://localhost:27017/")
-db = client["your_database_name"]
-collection = db['albums']
+db = client["musician"]
 
-# Get the top 5 best-selling merchandise items
-def find_top_selling_merchandise(db):
-    print("\nTop-Selling Merchandise Items:")
-    top_selling = db['merchandise'].find().sort("stock_count", -1).limit(5)
-    for item in top_selling:
-        print(f"Item: {item['name']}, Sold: {item['stock_count']}")
+def simple_query():
+    # Retrieve all songs from the album "Echoes of Tomorrow"
+    album_name = "Echoes of Tomorrow"
+    album = db.AlbumCollection.find_one({"albumName": album_name})
+    if album:
+        songs = list(db.SongCollection.find({"albumID": album["albumID"]}))
+        print("Songs from the album 'Echoes of Tomorrow':")
+        for song in songs:
+            print(song)
+    else:
+        print("Album not found")
 
-# Find aggregate total streams by album
-def total_streams_by_album(db):
-    print("\nTotal Streams by Album:")
+def complex_query():
+    # Find all products that are of type "Apparel" and have sold more than 20 units
+    products = list(db.Products.find({
+        "type": "Apparel",
+        "units_sold": {"$gt": 20}
+    }))
+    print("Products of type 'Apparel' with more than 20 units sold:")
+    for product in products:
+        print(product)
+
+def aggregate_query():
+    # Calculate the total revenue generated from music products
     pipeline = [
-        {"$group": {
-            "_id": "$album_id",
-            "total_streams": {"$sum": "$streams.count"}
-        }},
-        {"$sort": {"total_streams": -1}}
+        {"$match": {"type": "Music"}},
+        {
+            "$group": {
+                "_id": None,
+                "totalRevenue": {
+                    "$sum": {"$multiply": ["$price", "$units_sold"]}
+                }
+            }
+        }
     ]
-    results = db['songs'].aggregate(pipeline)
-    for result in results:
-        print(f"Album ID: {result['_id']}, Total Streams: {result['total_streams']}")
 
-# Find low-stock merchandise items
-def find_low_stock_merchandise(db, stock_threshold):
-    print(f"\nMerch Items with Stock Count Below {stock_threshold}:")
-    low_stock_items = db['merchandise'].find({"stock_count": {"$lt": stock_threshold}})
-    for item in low_stock_items:
-        print(f"Item: {item['name']}, Stock Count: {item['stock_count']}")
+    # Execute the aggregation pipeline
+    result = list(db.Products.aggregate(pipeline))
+    if result:
+        total_revenue = result[0]["totalRevenue"]
+        print(f"Total revenue generated from music products: ${total_revenue:.2f}")
+    else:
+        print("No music products found.")
 
-# Example function calls
-find_top_selling_merchandise(db)
-total_streams_by_album(db)
-find_low_stock_merchandise(db, 50)
-
-
+# Function calls
+simple_query()
+complex_query()
+aggregate_query()

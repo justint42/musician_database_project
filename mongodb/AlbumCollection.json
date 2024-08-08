@@ -1,89 +1,62 @@
 [
     {
-        "_id": {"$oid": "62bf26541d41c88d12345678"},
-        "title": "New Beginnings",
-        "release_date": {"$date": "2021-01-20T00:00:00Z"},
-        "songs": [
-            {
-                "song_id": {"$oid": "62bf26541d41c88d23456789"},
-                "track_number": 1
-            },
-            {
-                "song_id": {"$oid": "62bf26541d41c88d34567890"},
-                "track_number": 2
-            }
-        ],
-        "team_members": [
-            {
-                "member_id": {"$oid": "62bf26541d41c88d45678901"},
-                "role": "Producer"
-            },
-            {
-                "member_id": {"$oid": "62bf26541d41c88d56789012"},
-                "role": "Sound Engineer"
-            }
-        ]
+        "albumID": 1,
+        "albumName": "Echoes of Tomorrow",
+        "releaseDate": "2024-05-01",
+        "recordingProjectID": 1
     },
     {
-        "_id": {"$oid": "62bf26541d41c88d87654321"},
-        "title": "Echoes of Silence",
-        "release_date": {"$date": "2022-07-15T00:00:00Z"},
-        "songs": [
-            {
-                "song_id": {"$oid": "62bf26541d41c88d98765432"},
-                "track_number": 1
-            },
-            {
-                "song_id": {"$oid": "62bf26541d41c88d09876543"},
-                "track_number": 2
-            },
-            {
-                "song_id": {"$oid": "62bf26541d41c88d10987654"},
-                "track_number": 3
-            }
-        ],
-        "team_members": [
-            {
-                "member_id": {"$oid": "62bf26541d41c88d21098765"},
-                "role": "Vocalist"
-            },
-            {
-                "member_id": {"$oid": "62bf26541d41c88d32109876"},
-                "role": "Drummer"
-            }
-        ]
+        "albumID": 2,
+        "albumName": "Acoustic Sessions Vol. 3",
+        "releaseDate": "2024-06-16",
+        "recordingProjectID": 3
     },
     {
-        "_id": {"$oid": "62bf26541d41c88d43210987"},
-        "title": "Rhythms of Nature",
-        "release_date": {"$date": "2023-05-10T00:00:00Z"},
-        "songs": [
-            {
-                "song_id": {"$oid": "62bf26541d41c88d54321098"},
-                "track_number": 1
-            },
-            {
-                "song_id": {"$oid": "62bf26541d41c88d65432109"},
-                "track_number": 2
-            },
-            {
-                "song_id": {"$oid": "62bf26541d41c88d76543210"},
-                "track_number": 3
-            },
-            {
-                "song_id": {"$oid": "62bf26541d41c88d87654321"},
-                "track_number": 4
-            }
-        ],
-        "team_members": [
-            {
-                "member_id": {"$oid": "62bf26541d41c88d98765432"},
-                "role": "Composer"
-            },
-            {
-                "member_id": {"$oid": "62bf26541d41c88d09876543"},
-                "role": "Pianist"
-            }
-        ]
+        "albumID": 3,
+        "albumName": "Summer Anthems",
+        "releaseDate": "2024-07-01",
+        "recordingProjectID": 4
+    },
+    {
+        "albumID": 4,
+        "albumName": "Live from Madison Square Garden",
+        "releaseDate": "2024-08-15",
+        "recordingProjectID": 6
+    },
+    {
+        "albumID": 5,
+        "albumName": "Reimagined Classics",
+        "releaseDate": "2024-09-01",
+        "recordingProjectID": 7
+    },
+    {
+        "albumID": 6,
+        "albumName": "New Wave Revolution",
+        "releaseDate": "2024-10-15",
+        "recordingProjectID": 8
+    },
+    {
+        "albumID": 7,
+        "albumName": "Unplugged and Intimate",
+        "releaseDate": "2024-11-20",
+        "recordingProjectID": 9
+    },
+    {
+        "albumID": 8,
+        "albumName": "Holiday Magic",
+        "releaseDate": "2024-12-01",
+        "recordingProjectID": 10
+    },
+    {
+        "albumID": 9,
+        "albumName": "Rising Star",
+        "releaseDate": "2025-02-01",
+        "recordingProjectID": 11
+    },
+    {
+        "albumID": 10,
+        "albumName": "Experimental Soundscapes",
+        "releaseDate": "2025-04-01",
+        "recordingProjectID": 13
     }
 ]

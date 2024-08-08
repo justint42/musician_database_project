@@ -25,6 +25,8 @@ TRUNCATE TABLE CreativeEventManagement;
 TRUNCATE TABLE ListenerPreferences;
 TRUNCATE TABLE Collaborations;
 TRUNCATE TABLE SongAlbums;
+TRUNCATE TABLE Products;
+
 
 
 -- Re-enable foreign key checks
@@ -4437,3 +4439,19 @@ INSERT INTO SongAlbums (contentID, contentType, associatedContentID, associatedC
 (19, 'Song', 9, 'Album', 2), -- Rising Higher is track 2 on Rising Star
 (20, 'Song', 10, 'Album', 1); -- Soundscape 1: Genesis is track 1 on Experimental Soundscapes
 
+INSERT INTO Products (productID, name, type, price, stock_count, units_sold) VALUES
+('MM001', 'Logo T-shirt', 'Apparel', 25.00, 100, 30),
+('MM002', 'Hoodie with Album Art', 'Apparel', 45.00, 50, 20),
+('MM003', 'Vinyl Record "Dreamscape"', 'Music', 30.00, 150, 45),
+('MM004', 'Digital Download - Complete Album', 'Music', 10.00, 999999, 150),
+('MM005', 'Poster Signed by Artist X', 'Merchandise', 20.00, 75, 25),
+('MM006', 'Limited Edition Cap', 'Apparel', 35.00, 50, 15),
+('MM007', 'Sticker Pack', 'Merchandise', 5.00, 200, 60),
+('MM008', 'Enamel Pin Set', 'Merchandise', 15.00, 100, 40),
+('MM009', 'Canvas Bag', 'Apparel', 22.00, 80, 30),
+('MM010', 'Acoustic Sessions EP (CD)', 'Music', 15.00, 120, 35),
+('MM011', 'Guitar Picks (Pack of 5)', 'Merchandise', 10.00, 300, 85),
+('MM012', 'Photo Book', 'Merchandise', 40.00, 40, 10),
+('MM013', 'Lyrics Book', 'Merchandise', 25.00, 60, 20),
+('MM014', 'Concert Tickets', 'Tickets', 50.00, 200, 50),
+('MM015', 'Meet and Greet Pass', 'Tickets', 100.00, 25, 5);

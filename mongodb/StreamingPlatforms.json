@@ -1,26 +1,27 @@
 [
     {
-        "_id": {"$oid": "62bf28051c18d12345678931"},
-        "name": "Spotify",
-        "url": "https://www.spotify.com",
-        "total_streams": 500000000
+        "platformID": 1,
+        "platformName": "Spotify",
+        "platformRegion": "Global"
     },
     {
-        "_id": {"$oid": "62bf28051c18d12345678932"},
-        "name": "Apple Music",
-        "url": "https://www.applemusic.com",
-        "total_streams": 300000000
+        "platformID": 2,
+        "platformName": "Apple Music",
+        "platformRegion": "Global"
     },
     {
-        "_id": {"$oid": "62bf28051c18d12345678933"},
-        "name": "Amazon Music",
-        "url": "https://www.amazonmusic.com",
-        "total_streams": 200000000
+        "platformID": 3,
+        "platformName": "Tidal",
+        "platformRegion": "US"
     },
     {
-        "_id": {"$oid": "62bf28051c18d12345678934"},
-        "name": "YouTube Music",
-        "url": "https://www.youtube.com/music",
-        "total_streams": 450000000
+        "platformID": 4,
+        "platformName": "Amazon Music",
+        "platformRegion": "Global"
+    },
+    {
+        "platformID": 5,
+        "platformName": "YouTube Music",
+        "platformRegion": "Global"
     }
 ]

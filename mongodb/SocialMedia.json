@@ -1,45 +1,27 @@
 [
     {
-        "_id": {"$oid": "62bf27851c18d12345678911"},
-        "name": "OfficialBandPage",
-        "url": "https://www.socialmedia.com/OfficialBandPage",
-        "followers_count": 12000,
-        "posts": [
-            {
-                "post_id": {"$oid": "62bf27851c18d12345678912"},
-                "date": "2023-07-01",
-                "engagement": {
-                    "likes": 320,
-                    "shares": 45,
-                    "comments": 12
-                }
-            },
-            {
-                "post_id": {"$oid": "62bf27851c18d12345678913"},
-                "date": "2023-07-02",
-                "engagement": {
-                    "likes": 210,
-                    "shares": 30,
-                    "comments": 9
-                }
-            }
-        ]
+        "platformID": 1,
+        "platformName": "Instagram",
+        "platformType": "Photo Sharing"
     },
     {
-        "_id": {"$oid": "62bf27851c18d12345678914"},
-        "name": "SoloArtistProfile",
-        "url": "https://www.socialmedia.com/SoloArtistProfile",
-        "followers_count": 5000,
-        "posts": [
-            {
-                "post_id": {"$oid": "62bf27851c18d12345678915"},
-                "date": "2023-07-03",
-                "engagement": {
-                    "likes": 500,
-                    "shares": 70,
-                    "comments": 20
-                }
-            }
-        ]
+        "platformID": 2,
+        "platformName": "TikTok",
+        "platformType": "Short-form Video"
+    },
+    {
+        "platformID": 3,
+        "platformName": "X",
+        "platformType": "Microblogging"
+    },
+    {
+        "platformID": 4,
+        "platformName": "Facebook",
+        "platformType": "Social Networking"
+    },
+    {
+        "platformID": 5,
+        "platformName": "YouTube",
+        "platformType": "Video Sharing"
     }
 ]

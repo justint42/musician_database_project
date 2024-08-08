@@ -1,50 +1,122 @@
 [
     {
-        "_id": {"$oid": "62bf27951c18d12345678921"},
-        "title": "Echoes of the Night",
-        "duration": 215,
-        "album_id": {"$oid": "62bf26541d41c88d12345678"},
-        "streams": {
-            "platform_id": {"$oid": "62bf27051c18d12345678001"},
-            "count": 500000
-        },
-        "merchandise": [
-            {
-                "item_id": {"$oid": "62bf27451c18d12345678901"},
-                "sales_count": 120
-            }
-        ]
+        "songID": 1,
+        "songName": "Midnight Serenade",
+        "albumID": 1,
+        "length": "00:03:45"
     },
     {
-        "_id": {"$oid": "62bf27951c18d12345678922"},
-        "title": "Whispers in the Wind",
-        "duration": 198,
-        "album_id": {"$oid": "62bf26541d41c88d87654321"},
-        "streams": {
-            "platform_id": {"$oid": "62bf27051c18d12345678002"},
-            "count": 750000
-        },
-        "merchandise": [
-            {
-                "item_id": {"$oid": "62bf27451c18d12345678902"},
-                "sales_count": 95
-            }
-        ]
+        "songID": 2,
+        "songName": "Echoes of You",
+        "albumID": 1,
+        "length": "00:04:12"
     },
     {
-        "_id": {"$oid": "62bf27951c18d12345678923"},
-        "title": "Silent Symphony",
-        "duration": 342,
-        "album_id": {"$oid": "62bf26541d41c88d87654321"},
-        "streams": {
-            "platform_id": {"$oid": "62bf27051c18d12345678003"},
-            "count": 300000
-        },
-        "merchandise": [
-            {
-                "item_id": {"$oid": "62bf27451c18d12345678903"},
-                "sales_count": 150
-            }
-        ]
+        "songID": 3,
+        "songName": "Tomorrow's Promise",
+        "albumID": 1,
+        "length": "00:03:58"
+    },
+    {
+        "songID": 4,
+        "songName": "Acoustic Dreams",
+        "albumID": 2,
+        "length": "00:03:30"
+    },
+    {
+        "songID": 5,
+        "songName": "Unplugged Heart",
+        "albumID": 2,
+        "length": "00:04:05"
+    },
+    {
+        "songID": 6,
+        "songName": "Summer Nights",
+        "albumID": 3,
+        "length": "00:03:22"
+    },
+    {
+        "songID": 7,
+        "songName": "Beachside Melody",
+        "albumID": 3,
+        "length": "00:03:15"
+    },
+    {
+        "songID": 8,
+        "songName": "City Lights (Live)",
+        "albumID": 4,
+        "length": "00:05:10"
+    },
+    {
+        "songID": 9,
+        "songName": "Encore (Live)",
+        "albumID": 4,
+        "length": "00:06:20"
+    },
+    {
+        "songID": 10,
+        "songName": "Yesterday's Tomorrow",
+        "albumID": 5,
+        "length": "00:04:30"
+    },
+    {
+        "songID": 11,
+        "songName": "Reimagined Life",
+        "albumID": 5,
+        "length": "00:03:55"
+    },
+    {
+        "songID": 12,
+        "songName": "Neon Dreams",
+        "albumID": 6,
+        "length": "00:03:40"
+    },
+    {
+        "songID": 13,
+        "songName": "Digital Love",
+        "albumID": 6,
+        "length": "00:03:50"
+    },
+    {
+        "songID": 14,
+        "songName": "Whispers in the Dark",
+        "albumID": 7,
+        "length": "00:04:15"
+    },
+    {
+        "songID": 15,
+        "songName": "Raw Emotions",
+        "albumID": 7,
+        "length": "00:03:35"
+    },
+    {
+        "songID": 16,
+        "songName": "Winter Wonderland",
+        "albumID": 8,
+        "length": "00:03:25"
+    },
+    {
+        "songID": 17,
+        "songName": "Holiday Cheer",
+        "albumID": 8,
+        "length": "00:03:10"
+    },
+    {
+        "songID": 18,
+        "songName": "First Light",
+        "albumID": 9,
+        "length": "00:03:45"
+    },
+    {
+        "songID": 19,
+        "songName": "Rising Higher",
+        "albumID": 9,
+        "length": "00:04:00"
+    },
+    {
+        "songID": 20,
+        "songName": "Soundscape 1: Genesis",
+        "albumID": 10,
+        "length": "00:05:30"
     }
 ]
